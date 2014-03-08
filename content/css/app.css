@@ -1,51 +1,21 @@
-#map-canvas {
-	margin-bottom: 15px;
-	height:500px
-}
-
 .main-content {
     margin-top: 75px;
 }
 
-.main-content .panel {
-	font-size: 2em;
-}
-
-.side-content .panel {
-	font-size: 2em;
-}
-
-.side-content {
-    margin-top: 75px;
-}
-
-.brightness {
-	display: block;
-	text-align: center;
-}
-
-.temperature {
-	font-size: 2em;
-	display: block;
-	text-align: center;
-}
-
-.userFriendlyBrightness {
-	font-size: 2em;
-	display:block;
-	text-align:center;
-}
-
-.lightswitch .panel-body .btn-group {
-	width: 100%;
-}
-
-.lightswitch .panel-body .btn-group .btn {
-	width: 50%;
-}
-
 .navbar-brand {
 	font-family: 'Alfa Slab One', cursive;
+}
+
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin:0;
+}
+
+.wideContainer {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin:0;
 }
 
 body {

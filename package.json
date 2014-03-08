@@ -1,9 +1,7 @@
 {
-	"name": "MS_dag",
+	"name": "Instaconf",
 	"version": "0.0.1",
 	"dependencies": {
-		"express": "*",
-		"azure": "*",
-		"firebase": "*"
+		"express": "*"
 	}
 }

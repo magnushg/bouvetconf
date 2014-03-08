@@ -1,7 +1,15 @@
 (function () {
     
-    angular.module("ctrlrApp", ['ui.bootstrap', 'firebase', 'highcharts-ng']);
+    angular.module("instaApp", []);
 
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'cat',
+        clientId: 'c61ef3d655994bca9882f13621e54cfd',
+        limit: 30,
+        resolution: 'low_resolution'
+    });
+    feed.run();
 }());
 
 (function () {
