@@ -10,6 +10,9 @@
         resolution: 'low_resolution'
     });
     feed.run();
+    setInterval(function () {
+    	feed.run();
+    }, 300000);
 }());
 
 (function () {
