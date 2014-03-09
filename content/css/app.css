@@ -18,6 +18,11 @@
 	margin:0;
 }
 
+.navbar-brand img {
+	position:relative;
+	top: -11px;
+}
+
 body {
 	/*font-family: 'Droid Sans', sans-serif !important;*/
 }

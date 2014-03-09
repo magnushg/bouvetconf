@@ -4,9 +4,9 @@
 
     var feed = new Instafeed({
         get: 'tagged',
-        tagName: 'cat',
+        tagName: 'bouvet',
         clientId: 'c61ef3d655994bca9882f13621e54cfd',
-        limit: 30,
+        limit: 16,
         resolution: 'low_resolution'
     });
     feed.run();
