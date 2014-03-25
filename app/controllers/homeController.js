@@ -1,7 +1,6 @@
 (function(app) {
 
     var homeController = function($scope, $http) {       
-        $scope.message = "Hello world!";
         $scope.tag =  "festreisen"
 
         var feed = new Instafeed({

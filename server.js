@@ -11,5 +11,9 @@ app.get('/', function(req, res) {
 	res.sendfile('index.html');
 });
 
+app.get('/wall', function(req, res) {
+	res.sendfile('fullwall.html');
+});
+
 app.listen(port);
 console.log("Server started on port " + port);
