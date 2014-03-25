@@ -53,12 +53,17 @@ body {
 
 .imageContainer {
 	float: left;
-	margin: 5px;
+	margin: 5px 5px 10px 5px;
 }
 
 .caption {
 	padding: 3px;
 	width:306px;
+}
+
+.username {
+	color: #ec6708;
+	margin-right: 5px;
 }
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
