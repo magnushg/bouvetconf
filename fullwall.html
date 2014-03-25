@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bouvetconf</title>
+
+  <link rel="stylesheet" href="content/css/bootstrap.min.css">
+  <link rel="stylesheet" href="content/css/bootstrap-theme.min.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="content/css/app.css">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:600,700' rel='stylesheet' type='text/css'>
+     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body ng-app="instaApp" ng-controller="homeController" ng-cloak>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="/Content/images/header_logo.png"><div class="tag">#{{tag}}</div></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--<li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>-->
+                </ul>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </div>
+    <div class="wideContainer">
+        <div class="row">
+           <div class="col-xs-12 col-md-12 main-content">
+             <div class="heading"></div>
+  				   <div id="instafeed"></div>
+           </div>
+    </div> <!-- /container -->
+    <script src="vendor/jquery-2.0.3.min.js"></script>
+    <script src="vendor/bootstrap.min.js"></script>
+    <script src="vendor/angular.min.js"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCcdZ_uBv9RBTbDAXVdnI-lZ8QvnoyVzk&sensor=true"></script> -->
+    <script src="vendor/instafeed.min.js"></script>
+    <script src="app/instaApp.js"></script>
+    <script src="app/controllers/homeController.js"></script>
+</body>
+</html>
