@@ -1,9 +1,17 @@
 .main-content {
-    margin-top: 75px;
+    margin-top: 130px;
 }
 
 .navbar-brand {
-	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Josefin Slab';
+	font-weight: 700;
+}
+
+.navbar-inverse {
+	background-image: none;
+	background-color: #000;
+	color: #fff;
+	height: 120px;
 }
 
 .container {
@@ -23,8 +31,34 @@
 	top: -11px;
 }
 
+.tag {
+	position: relative;
+	display: block;
+	font-size: 3em;
+	color: #fff;
+}
+
+.main-content .heading {
+	font-size:2em;
+	color: #ec6708;
+	font-family: 'Archer A', 'Archer B'
+}
+
 body {
 	/*font-family: 'Droid Sans', sans-serif !important;*/
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	background-color: #000;
+	color: #999999;
+}
+
+.imageContainer {
+	float: left;
+	margin: 5px;
+}
+
+.caption {
+	padding: 3px;
+	width:306px;
 }
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
