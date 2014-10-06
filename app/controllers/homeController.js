@@ -1,7 +1,7 @@
 (function(app) {
 
     var homeController = function($scope, $http) {       
-        $scope.tag =  "festreisen"
+        $scope.tag =  "bouvetone"
 
         var feed = new Instafeed({
         get: 'tagged',
